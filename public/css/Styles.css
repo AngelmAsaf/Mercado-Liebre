@@ -73,10 +73,9 @@ ul li a {
         width: 30%;
 }
 
-form {
+.form {
         text-align: center;
         padding: 15px;
-        width: 50%;
 }
 
 
@@ -151,11 +150,10 @@ h1 {
 }
 
 .descuento {
-        text-align: center;
+        text-align: left;
         width: 70%;
         color: #39b54a;
         font-size: 14px;
-        padding-left: 5px ;
 }
 
 h4,
@@ -216,6 +214,9 @@ footer section i {
         margin-top: 32px;
 }
 
+.create-form {
+        padding: 20px, 15px;
+}
 
 @media(min-width: 361px) {
         .burger-menu {

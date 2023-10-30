@@ -60,6 +60,43 @@
 
     </header>
     <section class="banner"><img src="/images/img-home-banner.jpg" alt="banner" /></section>
+    <form action="/crear-producto" method="POST" class="create-form">
+        <div>
+            <label>Nombre del producto</label>
+            <input type="text" name="Nombre">
+        </div>
+        <div>
+            <label>Precio</label>
+            <input type="number" name="precio" placeholder="5000.00">
+        </div>
+        <div>
+            <label>Categoria</label>
+            <select name="categoria">
+                <option value="hogar">Hogar</option>
+                <option value="electro">Electro</option>
+                <option value="indumentaria">Indumentaria</option>
+            </select>
+        </div>
+        <div>
+            <label>Ciudad</label>
+            <select name="Ciudad">
+                <option value="bsas">Buenos aires</option>
+                <option value="Ro">Rosario</option>
+                <option value="Mdz">Mendoza</option>
+            </select>
+        </div>
+        <div>
+            <label>Descripcion del producto</label>
+            <textarea name="descripcion"></textarea>
+        </div>
+        
+        <div>
+            <label>Esta en oferta?</label>
+            <input type="radio" name="enOferta">
+        </div>
+        <button type="submit">Guardad</button>
+        <button type="reset">Borrar</button>
+    </form>
     <main>
         <section>
             <h1>Basado en tu ultima visita</h1>
