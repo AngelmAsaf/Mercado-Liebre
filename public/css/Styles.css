@@ -215,9 +215,35 @@ footer section i {
 }
 
 .create-form {
-        padding: 20px, 15px;
+        padding: 20px 15px;
 }
 
+.control-formulario {
+        margin-bottom: 15px;
+
+} 
+
+.control-formulario label {
+        margin-bottom: 5px;
+        font-style: italic;
+        display: block;
+
+}
+
+.control {
+        width: 100%;
+        padding: 8x;
+}
+
+.boton-form {
+        background-color: #39b54a;
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+
+}
 @media(min-width: 361px) {
         .burger-menu {
                 display: none;

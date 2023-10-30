@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 
-app.listen(3003, () => console.log('servidor corriendo.'))
+app.listen(3030, () => console.log('servidor corriendo.'))
 
 //app.use(express.static('public'));
 app.use(express.static(path.resolve(__dirname, 'public')));

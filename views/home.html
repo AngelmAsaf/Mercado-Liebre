@@ -61,41 +61,40 @@
     </header>
     <section class="banner"><img src="/images/img-home-banner.jpg" alt="banner" /></section>
     <form action="/crear-producto" method="POST" class="create-form">
-        <div>
+        <div class="control-formulario">
             <label>Nombre del producto</label>
-            <input type="text" name="Nombre">
+            <input type="text" name="Nombre" class="control">
         </div>
-        <div>
+        <div class="control-formulario">
             <label>Precio</label>
-            <input type="number" name="precio" placeholder="5000.00">
+            <input type="number" name="precio" placeholder="5000.00" class="control">
         </div>
-        <div>
+        <div class="control-formulario">
             <label>Categoria</label>
-            <select name="categoria">
+            <select name="categoria" class="control">
                 <option value="hogar">Hogar</option>
                 <option value="electro">Electro</option>
                 <option value="indumentaria">Indumentaria</option>
             </select>
         </div>
-        <div>
+        <div class="control-formulario">
             <label>Ciudad</label>
-            <select name="Ciudad">
+            <select name="Ciudad" class="control">
                 <option value="bsas">Buenos aires</option>
                 <option value="Ro">Rosario</option>
                 <option value="Mdz">Mendoza</option>
             </select>
         </div>
-        <div>
+        <div class="control-formulario">
             <label>Descripcion del producto</label>
-            <textarea name="descripcion"></textarea>
+            <textarea name="descripcion" class="control"></textarea>
         </div>
-        
-        <div>
+        <div class="control-formulario">
             <label>Esta en oferta?</label>
             <input type="radio" name="enOferta">
         </div>
-        <button type="submit">Guardad</button>
-        <button type="reset">Borrar</button>
+        <button type="submit" class="boton-form">Guardad</button>
+        <button type="reset" class="boton-form">Borrar</button>
     </form>
     <main>
         <section>
