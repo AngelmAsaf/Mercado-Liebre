@@ -1,0 +1,265 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0px;
+        color: black;
+}
+
+img {
+        width: 100%;
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #ebebeb;
+}
+
+header {
+        background-color: #EAC926;
+}
+
+.grupo {
+        display: flex;
+        padding: 12px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+.grupo h2 {
+        text-align: center;
+        font-size: 14px;
+        width:100%;
+}
+
+.logo {
+        width: 50%;
+        padding: 0px;
+}
+
+
+.grupo1,
+.grupo2 {
+        display: flex;
+        justify-content: space-around;
+}
+
+.navegacion {
+        justify-content: space-between;
+        display: none;
+        font-size: 20px;
+        margin: 20px;
+}
+
+ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+}
+
+ul li a {
+        text-decoration: none;
+}
+
+
+
+
+.grupo1 {
+        width: 40%;
+}
+
+.grupo2 {
+        width: 30%;
+}
+
+form {
+        text-align: center;
+        padding: 15px;
+        width: 50%;
+}
+
+
+
+
+div.burger-menu{
+        text-align: center;
+        padding: 8px;
+}
+.burger-menu i {
+        text-align: center;
+        padding: 12px;
+        font-size: 24px;
+        border-radius: 20%;
+        color: white;
+        background-color: #1259c3;
+        margin: 4px;
+}
+
+
+
+.banner {
+        padding: 0px;
+}
+
+
+main {
+        width: 90%;
+        align-items: center;
+        background-color: #ebebeb;
+        margin: auto;
+}
+.ultimavisita {
+        justify-content: space-between;
+}
+
+.ofertas {
+        justify-content: space-between;
+}
+.articulo {
+        text-align: left;
+        border-top: 1px solid #ebebeb;
+        background-color: white;
+        position: relative;
+}
+
+
+
+
+
+
+h1 {
+        color: #666;
+        margin: 12px;
+        margin-left: 0px;
+        font-size: 20px;
+}
+
+.precioydescuento {
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+}
+
+.precioydescuento h2 {
+        text-align: left;
+
+        font-size: 16px;
+        width: 30%;
+
+}
+
+.descuento {
+        text-align: center;
+        width: 70%;
+        color: #39b54a;
+        font-size: 14px;
+        padding-left: 5px ;
+}
+
+h4,
+h5 {
+        font-size: 16px;
+}
+
+h5 {
+        display: none;
+        color: #666;
+        padding: 10px;
+}
+
+
+article {
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+}
+
+article div {
+        
+        align-items: center;
+        justify-content: space-around;
+}
+
+article i {
+        display: block;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        padding: 15px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 1px solid #39b54a;
+        color: #39b54a;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+}
+
+footer {
+        background-color: white;
+}
+
+footer section {
+        text-align: center;
+        size: 32px;
+        margin: 10px;
+
+}
+
+footer section i {
+        color: #1259c3;
+        font-size: 2em;
+        margin: 10px;
+        margin-top: 32px;
+}
+
+
+@media(min-width: 361px) {
+        .burger-menu {
+                display: none;
+        }
+        
+        
+        .ultimavisita, .ofertas {
+                display: flex;
+                flex-wrap: wrap;
+        }
+
+        article {
+                box-shadow: 0px 0px 10px rgb(100, 100, 100);
+                width: 49%;
+        }
+        .logo {
+                width:30%;
+        }
+        .form {
+                width: 30%;
+
+        }
+        .cuotas {
+                width: 30%;
+        }
+
+        .grupo {
+                display: flex;
+        }
+
+       
+        .navegacion {
+                display: flex;
+        }
+        h5 {
+                display: block;
+        }
+
+}
+
+
+@media(min-width:769px) {
+        article {
+                width: 22%;
+        }
+}
