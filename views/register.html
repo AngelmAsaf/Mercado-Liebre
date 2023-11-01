@@ -59,41 +59,76 @@
         </div>
 
     </header>
-    <section class="banner"><img src="/images/img-home-banner.jpg" alt="banner" /></section>
-    
     <main>
         <form action="/crear-producto" method="POST" class="create-form">
             <div class="control-formulario">
-                <label>NOMBRE Y Apellido</label>
-                <input type="text" name="Nombre" class="control">
+                <input type="text" name="Nombre" class="input-form" placeholder="Nombre y apellido">
             </div>
             <div class="control-formulario">
-                <label>Nombre de usuari@</label>
-                <input type="text" name="nombreyapellido"  class="nombreyapellido">
+                <input type="text" name="nombreyapellido"  class="input-form" placeholder="Nombre de usuari@">
             </div>
             <div class="control-formulario">
-                <label>email</label>
-                <input type="email" name="email" class="email">
+                <input type="email" name="email" class="input-form" placeholder="E-mail">
+            </div>
+            <label class="etiqueta-formulario">Fecha de nacimiento</label>
+            <div class="control-formulario">  
+                <input type="date" name="fechadenacimiento" class="input-form" placeholder="Fecha de nacimiento">   
             </div>
             <div class="control-formulario">
-                <label>Fecha de nacimiento</label>
-                <input type="date" name="fechadenacimiento" class="fechadenacimiento">   
+                <input type="text" name="domicilio"  class="input-form" placeholder="Domicilio">
+            </div>
+            <label class="etiqueta-formulario">Perfil de usuario</label>
+            <div class="control-formulario">
+                
+               <div class="perfildeusuario">
+                 <div>
+                    <input type="radio" name="perfildeusuario" value="Comprador" class="radio">
+                    <label for="comprador">Comprador</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="perfildeusuario" value="Vendedor" class="radio">
+                    <label for="vendedor">Vendedor</label>
+                 </div>
+                 
+               </div>
+            </div>
+            <label class="etiqueta-formulario">Intereses</label>
+            <div class="control-formulario">
+               <div>
+                 <input type="checkbox" name="perfildeusuario" value="electro" class="checkbox">
+                 <label for="vendedor">Electro</label>
+                 <br>
+                 <br>
+                 <input type="checkbox" name="perfildeusuario" value="moda" class="checkbox">
+                 <label for="comprador">Moda</label>
+                 <br>
+                 <br>
+                 <input type="checkbox" name="perfildeusuario" value="hogar" class="checkbox">
+                 <label for="comprador">Hogar</label>
+                 <br>
+                 <br>
+                 <input type="checkbox" name="perfildeusuario" value="jugueteria" class="checkbox">
+                 <label for="comprador">Jugueteria</label>
+                 <br>
+                 <br>
+                 <input type="checkbox" name="perfildeusuario" value="vida sana" class="checkbox">
+                 <label for="comprador">Vida sana</label>
+             </div>
+            </div>
+            <label class="etiqueta-formulario">Foto de usuario</label>
+            <div class="control-formulario">
+            <input type="file" name="perfildeusuario" value="vida sana" class="fotodeusuario">
             </div>
             <div class="control-formulario">
-                <label>Domicilio</label>
-                <input type="text" name="domicilio"  class="nombreyapellido">
-            </div>
-            
-            <div class="control-formulario">
-                <label>Descripcion del producto</label>
-                <textarea name="descripcion" class="control"></textarea>
+                <input type="password" name="nombreyapellido"  class="input-form" placeholder="contraseña">
             </div>
             <div class="control-formulario">
-                <label>Esta en oferta?</label>
-                <input type="radio" name="enOferta">
+                <input type="password" name="nombreyapellido"  class="input-form" placeholder="confirmar contraseña">
             </div>
-            <button type="submit" class="boton-form">Guardad</button>
-            <button type="reset" class="boton-form">Borrar</button>
+            <div class="botones">
+                <button type="submit" class="boton-enviar"><a href="/">Enviar</a></button>
+                <button type="reset" class="boton-borrar">Borrar</button>
+            </div>
         </form>
     </main>
 

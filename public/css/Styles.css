@@ -195,6 +195,62 @@ article i {
         right: 20px;
         top: -15px;
 }
+.perfildeusuario {
+        display: flex;
+}
+.control-formulario {
+        padding: 15px;
+
+}
+
+.radio {
+        padding: 15px;
+        margin: 10px;
+        
+}
+
+.checkbox {
+        padding: 15px;
+        margin: 10px;
+}
+
+.etiqueta-formulario {
+        padding: 15px;
+        font-size: 16px;
+        font-weight: bold;
+}
+
+.input-form {
+        width: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+}
+.boton-enviar, .boton-borrar{
+        background-color: #048a16;
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+
+}
+.boton-borrar {
+        background-color: rgb(217, 119, 97) ;
+
+}
+
+.boton-enviar a {
+        color: #fff;
+        text-decoration: none;
+}
+
+.botones {
+        display: flex;
+        justify-content: space-around;
+        
+}
 
 footer {
         background-color: white;
@@ -214,36 +270,7 @@ footer section i {
         margin-top: 32px;
 }
 
-.create-form {
-        padding: 20px 15px;
-}
 
-.control-formulario {
-        margin-bottom: 15px;
-
-} 
-
-.control-formulario label {
-        margin-bottom: 5px;
-        font-style: italic;
-        display: block;
-
-}
-
-.control {
-        width: 100%;
-        padding: 8x;
-}
-
-.boton-form {
-        background-color: #39b54a;
-        border: none;
-        font-size: 20px;
-        color: #fff;
-        padding: 5px 10px;
-        border-radius: 5px;
-
-}
 @media(min-width: 361px) {
         .burger-menu {
                 display: none;
