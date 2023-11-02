@@ -26,6 +26,28 @@ header {
         align-items: center;
         flex-wrap: wrap;
 }
+.form {
+        text-align: center;
+        font-size: 24px;
+}
+
+.form button input {
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 10px;
+        text-align: left;
+        width: 90%;
+}
+
+.form button  {
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        width: 90%;
+}
+
 
 .grupo h2 {
         text-align: center;
@@ -73,10 +95,6 @@ ul li a {
         width: 30%;
 }
 
-.form {
-        text-align: center;
-        padding: 15px;
-}
 
 
 
@@ -250,6 +268,36 @@ article i {
         display: flex;
         justify-content: space-around;
         
+}
+
+.div-form-login {
+        margin: 40px;
+        text-align: center;
+        display: block;
+}
+
+.input-user, .input-pswd {
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        width: 80%;
+        
+}
+
+.boton-enviar-login {
+        background-color: #1259c3;
+        border: none;
+        font-size: 24px;
+        color: #fff;
+        padding: 5px ;
+        border-radius: 5px;
+        text-decoration: none;
+        width: 80%;
+}
+
+.boton-enviar-login a {
+        color: #fff;
+        text-decoration: none;
 }
 
 footer {
