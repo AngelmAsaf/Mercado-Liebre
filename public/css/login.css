@@ -80,6 +80,10 @@
     width: 80%;
 }
 
+.boton-enviar-login:hover {
+    background-color: #0022AA;
+}
+
 .boton-enviar-login a {
     color: #fff;
     text-decoration: none;

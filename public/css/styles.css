@@ -71,12 +71,13 @@ header {
         justify-content: space-between;
         display: none;
         font-size: 20px;
-        margin: 20px;
+        padding: 20px;
 }
 
 ul {
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 }
 
@@ -177,12 +178,18 @@ h1 {
 h4,
 h5 {
         font-size: 16px;
+        position: relative;
 }
 
 h5 {
         display: none;
         color: #666;
         padding: 10px;
+        transition: all 0.5s;
+}
+
+.articulo:hover h5 {
+        display: flex;
 }
 
 
@@ -191,6 +198,11 @@ article {
         margin-top: 15px;
 
 }
+
+article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 
 article div {
         
@@ -212,15 +224,20 @@ article i {
         position: absolute;
         right: 20px;
         top: -15px;
+        transition: all 1s;
 }
 
+article i:hover {
+        transform: rotate(-90deg);
+}
 footer {
         background-color: white;
 }
 
+
+
 footer section {
         text-align: center;
-        size: 32px;
         margin: 10px;
 
 }
@@ -232,6 +249,14 @@ footer section i {
         margin-top: 32px;
 }
 
+footer section i:hover {
+        color: rgb(118, 140, 212);
+}
+.copyright {
+        margin-top: 50px;
+        padding: 14px;
+        font-size: 14px;
+}
 
 @media(min-width: 361px) {
         .burger-menu {
@@ -245,7 +270,6 @@ footer section i {
         }
 
         article {
-                box-shadow: 0px 0px 10px rgb(100, 100, 100);
                 width: 49%;
         }
         .logo {
@@ -267,9 +291,7 @@ footer section i {
         .navegacion {
                 display: flex;
         }
-        h5 {
-                display: block;
-        }
+        
 
 }
 
@@ -277,5 +299,9 @@ footer section i {
 @media(min-width:769px) {
         article {
                 width: 22%;
+        }
+
+        .articulos-footer {
+                display: flex;
         }
 }
