@@ -27,27 +27,27 @@ header {
         flex-wrap: wrap;
 }
 .form {
-        text-align: center;
+        text-align: left;
         font-size: 24px;
+        background-color: white;
+        border-radius: 5px;
 }
 
-.form button input {
+.form input {
         font-size: 20px;
         border: none;
         border-radius: 5px;
-        padding: 10px 10px;
+        padding: 10px;
         text-align: left;
         width: 90%;
 }
 
 .form button  {
-        font-size: 20px;
+        font-size: 24px;
         border: none;
-        border-radius: 5px;
+        margin-left: 3px;
         background-color: #fff;
-        width: 90%;
 }
-
 
 .grupo h2 {
         text-align: center;
@@ -185,7 +185,7 @@ h5 {
         display: none;
         color: #666;
         padding: 10px;
-        transition: all 0.5s;
+        transition: all 2s;
 }
 
 .articulo:hover h5 {
@@ -196,6 +196,7 @@ h5 {
 article {
         margin-bottom: 15px;
         margin-top: 15px;
+        transition: all 0.5s;
 
 }
 
