@@ -188,7 +188,7 @@ h5 {
         transition: all 2s;
 }
 
-.articulo:hover h5 {
+.contenedorArticulo:hover h5 {
         display: flex;
 }
 
@@ -202,6 +202,7 @@ article {
 
 article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: all 1s;
 }
 
 
